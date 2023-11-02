@@ -18,6 +18,6 @@ const newUser = {
     name: "",
     balance: 0,
     addBalance(balance:number): string{
-        return  `My new balance is : ${this.balance + balance}`;
+        return `My new balance is : ${this.balance + balance}`;
     },
 };

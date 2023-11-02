@@ -6,9 +6,8 @@ console.log(newArr);
 // I must not push or unshit any element from array if that is a tuple array
 newArr.push("Oh testing and learning");
 console.log(newArr);
-function add(num1, num2) {
-    return num1 + num2;
-}
-console.log(add(4, 6));
-const arrowFunction = (num1, num2) => num1 + num2;
-console.log(arrowFunction(20, 56));
+//maping array in TS
+const numberArr = [4, 10, 11];
+console.log(numberArr);
+const mappedArr = numberArr.map((element) => element * element);
+console.log(mappedArr);
