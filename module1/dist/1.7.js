@@ -19,7 +19,7 @@
         cloud: "Nahid",
     };
     const mentorList = Object.assign(Object.assign({}, mentors1), mentors2);
-    // learn rest opeartor
+    // learning rest opeartor
     const greetFriends = (...friends) => {
         friends.forEach((friend) => console.log(`Hi ${friend}`));
     };
