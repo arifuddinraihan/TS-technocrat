@@ -53,7 +53,8 @@
   // Parent Inheritance learning from above codes,
 
   // Parent Class
-  class Parent {
+
+  class Person {
     constructor(public name: string, public age: number, public address: string) {}
 
     getSleep(numberOfHours: number) {
@@ -63,7 +64,7 @@
 
   // Child Class with same properties which calls [super(values)] for inheritance access to parent
 
-  class Student1 extends Parent{
+  class Student1 extends Person{
     constructor(name : string, age : number, address : string){
         super(name, age, address);
     }
@@ -74,7 +75,7 @@
 
 // Child Class with same properties but extends new properties and method which calls [super(values)] for inheritance access to parent
   
-class Teacher1 extends Parent{
+class Teacher1 extends Person{
     constructor(name : string, age : number, address : string, public designation : string){
         super(name, age, address)
     }
