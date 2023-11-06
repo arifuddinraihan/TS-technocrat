@@ -31,7 +31,7 @@
   };
   //   person1.name = "MD"
 
-  // ReadOnly Utility type
+  // Record Utility type
   type OBJ = Record<string, string>;
 
   const newObj: OBJ = {

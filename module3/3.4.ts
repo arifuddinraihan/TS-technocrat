@@ -1,5 +1,5 @@
 {
-  // instanceof Guards
+  // Instanceof Guards
 
   // Parent Class
   class Animal {
