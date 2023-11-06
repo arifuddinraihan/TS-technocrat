@@ -41,7 +41,7 @@
     const resGenericString10 = createTupleWithGeneric<String, { name: string }>("Math", { name: "Algebra" })
     // console.log(resGenericString10)
 
-
+    // Generic Function
     const addCourseToStudent = <T>(student: T) => {
         const course = "Next Level Web Development"
 
