@@ -51,6 +51,8 @@
 
     const add: AddFunction2 = (num1, num2) => num1 + num2;
 
+    console.log(add(7, 5))
+
 
 
 
