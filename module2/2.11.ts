@@ -22,11 +22,26 @@
   type PersonPartial = Partial<Person>;
 
   // ReadOnly Utility type
-  const person1: Person = {
+  type PersonReadonly = Readonly<Person>;
+
+  const person1: PersonReadonly = {
     name: "Arif",
     age: 200,
     mobile: 1928370918,
   };
+  //   person1.name = "MD"
+
+  // ReadOnly Utility type
+  type OBJ = Record<string, string>;
+
+  const newObj: OBJ = {
+    a1: "aa",
+    b1: "bb",
+    c1: "cc",
+    d1: "dd",
+  };
+  // Defining object with Record utility which has key type assigned but value types unknown
+  const emptyObj: Record<string, unknown> = {};
 
   // End of code and scope
 }
