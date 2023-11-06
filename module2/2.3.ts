@@ -34,29 +34,21 @@
 
     // Generic Tuple Array
     type GenericTuple<x, y> = [x, y];
-    
+
     const manush1: GenericTuple<string, string> = ["Mr. X", "Mr. Y"];
 
-    const userDetails: GenericTuple<number, { name: string, email: string }> = [
+    type User = {
+        name: string;
+        email: string;
+    }
+
+    const userDetails: GenericTuple<number, User> = [
         564,
         {
             name: "Arif",
             email: "y@gmail.com"
         }
     ]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // End of code and scope
 }
