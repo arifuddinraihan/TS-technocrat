@@ -1,5 +1,5 @@
 {
-  // Mapped Types
+  // 2-10 Mapped Types
 
   const arrayOfNumbers: number[] = [1, 4, 5];
   //   const arrayOfStrings: string[] = ["1", "4", "5"];

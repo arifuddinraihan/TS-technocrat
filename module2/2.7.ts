@@ -1,5 +1,5 @@
 {
-  // Generic Constraints with *keyof* operator in TS
+  // 2-7 Generic Constraints with *keyof* operator in TS
 
   type Vehicles = {
     bike: string;

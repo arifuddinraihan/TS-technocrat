@@ -1,5 +1,5 @@
 {
-    // Interface with Generic process
+    // 2-4 Interface with Generic process
     // to set a default value for an argument we can declare [null]
 
     interface Developer<T, X = null> {

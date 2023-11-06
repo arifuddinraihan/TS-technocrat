@@ -1,5 +1,5 @@
 {
-    //
+    // 2-2
 
     // interface
     // for all premetive type I will use Type Alias

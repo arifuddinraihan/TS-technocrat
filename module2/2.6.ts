@@ -1,5 +1,5 @@
 {
-    // Constraints in TS
+    // 2-6 Constraints in TS
     interface StudentMustHave {
         id: number;
         name: string;

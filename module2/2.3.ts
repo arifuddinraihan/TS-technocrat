@@ -1,5 +1,5 @@
 {
-    // Generic Types
+    // 2-3 Generic Types
     // type GenericArray<param> = Array<param>
     // For industry standard I will use <T> as param in TS Generic Types declaration
     type GenericArray<T> = Array<T>

@@ -1,5 +1,5 @@
 {
-  // Promise Asynchronous
+  // 2-8 Promise Asynchronous
 
   // Simulate
   //   const createPromise = () => {

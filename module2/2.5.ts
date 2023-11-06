@@ -1,5 +1,5 @@
 {
-    // Functions with Generic
+    // 2-5 Functions with Generic
 
     const createArray = (param: string): string[] => {
         return [param];
