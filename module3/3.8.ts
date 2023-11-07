@@ -60,7 +60,7 @@
     }
   }
 
-  const getShapeArea = (param: Shape): number => {
+  const getShapeArea = (param: Shape) => {
     console.log(param.getArea());
   };
 
