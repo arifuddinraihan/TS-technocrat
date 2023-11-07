@@ -1,5 +1,5 @@
 {
-  // OOP --> Static
+  // OOP --> Static Method
 
   class Counter {
     // if I use [STATIC], I must call the property with Its Class name
